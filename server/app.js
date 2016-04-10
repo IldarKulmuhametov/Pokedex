@@ -8,22 +8,22 @@ const app = express();
 //app.use(express.static(path.join(__dirname, '../public')));
 
 app.use('/src/styles/main.css ', function(req,res){
-    res.sendFile(path.resolve('/public/src/styles/main.css'))
+    res.sendFile(path.resolve('/src/styles/main.css'))
 });
 
 app.use('/src/build/build.js', function(req,res){
-    res.sendFile(path.resolve('/public/src/build/build.js'))
+    res.sendFile(path.resolve('/src/build/build.js'))
 });
 
 
 app.use('/src/packages/bootstrap-material-design/dist/css/material.css ', function(req,res){
-    res.sendFile(path.resolve('/public/src/packages/bootstrap-material-design/dist/css/material.css '))
+    res.sendFile(path.resolve('/src/packages/bootstrap-material-design/dist/css/material.css '))
 });
 
 
 
 app.use('/src/packages/bootstrap/dist/css/bootstrap.css', function(req,res){
-    res.sendFile(path.resolve('/public/src/packages/bootstrap/dist/css/bootstrap.css'))
+    res.sendFile(path.resolve('/src/packages/bootstrap/dist/css/bootstrap.css'))
 });
 
 
