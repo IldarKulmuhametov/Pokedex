@@ -1,10 +1,8 @@
-# Pokedex
-Pokedex client side for api  [api](http://pokeapi.co/) 
+#Pokedex client side for api  [api](http://pokeapi.co/) 
 
-If you want to see this you need to clone this project and run following comands
+##If you want to see this you need to clone this project and run following comands
 
-*npm install
-*bower install
-*webpack 
-
-then run npm start 
+-npm install
+-bower install
+-webpack 
+-npm start 
