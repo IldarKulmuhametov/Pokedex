@@ -1,0 +1,27 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.34",
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "babel-runtime": "^5.8.35",
+    "express": "^4.13.3",
+    "history": "^1.13.1",
+    "json-loader": "^0.5.4",
+    "point-one": "^0.2.1",
+    "react": "^0.14.3",
+    "react-bootstrap": "^0.28.1",
+    "react-dom": "^0.14.3",
+    "react-loader": "^2.2.0",
+    "react-router": "^1.0.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {}
+}

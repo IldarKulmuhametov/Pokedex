@@ -1,0 +1,52 @@
+.place-relative {
+  position: relative;
+}
+
+.mt-menu {
+  @extend .place-relative;
+  float: left;
+  .menu-container {
+    height: 0;
+    overflow: hidden;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border-radius: 0 0 2px 2px;
+
+    min-width: 200px;
+    font-size: 14px;
+    color: #333;
+    margin-top: -10px;
+    transition: margin-top linear .2s;
+    max-height: 280px;
+    overflow-y: auto ;
+    .item {
+      @extend .place-relative;
+      color: #555555;
+      padding: 5px 0 5px 18px;
+      font-weight: 500;
+      cursor: pointer;
+      list-style: none;
+      margin: 0;
+      white-space: nowrap;
+      &:hover::before {
+        background-color: rgba(0,0,0,.1);
+        content: ' ';
+        height: 29px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+  &.menu-open {
+    .menu-container {
+      height: inherit;
+      padding: 12px 0;
+      box-shadow: inset 0px -1px 1px rgba(0,0,0,.15),0px 1px 5px rgba(0,0,0,.15);
+      margin-top: 0;
+    }
+  }
+}

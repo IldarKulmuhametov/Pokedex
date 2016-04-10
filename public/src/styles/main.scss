@@ -1,0 +1,134 @@
+@import "common/menu";
+
+.full-height-container {
+  height: 100%;
+}
+
+.main-page {
+  margin-top: 40px;
+  .load-button {
+    width: 100%;
+  }
+}
+
+
+.single-pokemon {
+  text-align: center;
+  .pokemon-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .pokemon-image {
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .type-name {
+    font-size: 14px;
+    font-weight: normal;
+
+    color: white;
+    padding: 5px;
+    border: 1px solid #9e9e9e;
+    border-radius: 14px;
+
+    &.normal {
+      background-color: #069609;
+    }
+    &.fighting {
+      background-color: #31059c;
+    }
+    &.flying {
+      background-color: #22f2e0;
+    }
+    &.poison {
+      background-color: #E040FB;
+    }
+    &.ground {
+      background-color: #5D4037;
+    }
+    &.rock {
+      background-color: #615914;
+    }
+    &.bug {
+      background-color: #2a791a;
+    }
+    &.ghost {
+      background-color: #697279;
+    }
+    &.steel {
+      background-color: #649d9e;
+    }
+    &.fire {
+      background-color: #dd3e3d;
+    }
+    &.water {
+      background-color: #1976D2;
+    }
+    &.grass {
+      background-color: #4CAF50;
+    }
+    &.electric {
+      background-color: #ff9c00;
+    }
+    &.ice {
+      background-color: #faffff;
+    }
+    &.dragon {
+      background-color: #24e6c0;
+    }
+    &.dark {
+      background-color: #000000;
+    }
+    &.fairy {
+      background-color: #f739f8;
+    }
+    &.unknown {
+      background-color: #1e35a2;
+    }
+    &.shadow {
+      background-color: #666869;
+    }
+    &.psychic {
+      background-color: #0c725c;
+    }
+  }
+}
+
+.detailed-view {
+  width: 280px;
+  position: fixed;
+  .detailed-view-image {
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .det-title-container {
+    .detailed-title {
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  .det-value-container {
+    .detailed-title-value {
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}
+
+.filter-button {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.type-name-filter-title {
+  font-size: 16px;
+  font-weight: normal;
+  i {
+    position: relative;
+    top: 4px;
+  }
+}
