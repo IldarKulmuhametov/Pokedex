@@ -1,4 +1,4 @@
-#Pokedex client side for [API](http://pokeapi.co/ ) 
+#Pokedex client side for [Pokemon API](http://pokeapi.co/ ) 
 
 ##If you want to see this you can clone this project and run following comands
 
