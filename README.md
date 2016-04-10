@@ -6,6 +6,7 @@
 #####*bower install
 #####*webpack 
 #####*npm start 
+## Also you can see it in gh-pages, folow the link [Pokedex](http://ildarkulmuhametov.github.io/Pokedex/public/)
 
 ##Enjoy:)
 
