@@ -7,7 +7,7 @@
 #####*webpack 
 #####*npm start 
 
-##Also you can see it with gihab-pages,  folow the Link [Pokedex](http://pokeapi.co/)
+##Enjoy:)
 
 
 
